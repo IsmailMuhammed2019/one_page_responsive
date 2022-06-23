@@ -29,3 +29,10 @@ h6 {
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
 }
+.jumbo {
+  background-image: url(./imgs/bg-hero-desktop.svg);
+  background-size: cover;
+  background-repeat: none;
+  width: 1440px;
+  height: 718px;
+}
