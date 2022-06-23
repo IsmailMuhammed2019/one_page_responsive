@@ -7,3 +7,25 @@
   --Very_Dark_Cyan: var(hsl(192, 100%, 9%));
   --Grayish_Blue: var(hsl(208, 11%, 55%));
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: (400, 700);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
