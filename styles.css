@@ -120,6 +120,7 @@ header > .btn:hover {
   border: none;
   background-color: hsl(322, 100%, 66%);
   color: hsl(193, 100%, 96%);
+  font-size: 15px;
 }
 
 .introbtn:hover {
@@ -173,4 +174,36 @@ header > .btn:hover {
   right: 0;
   background-color: #ffffff;
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.fixed > h2 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.fixed > button {
+  width: 250px;
+  margin-top: 35px;
+  line-height: 50px;
+  border-radius: 37px;
+  border: none;
+  background-color: hsl(322, 100%, 66%);
+  color: hsl(193, 100%, 96%);
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+footer {
+  background-color: hsl(192, 100%, 9%);
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 15px;
+}
+
+.footerwrapper {
+  width: 90%;
 }
