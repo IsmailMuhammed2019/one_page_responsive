@@ -141,3 +141,20 @@ header > .btn:hover {
   border-radius: 10px;
   border: none;
 }
+
+.grow {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px;
+}
+
+.grow > p {
+  margin-top: 30px;
+}
+
+.secimage {
+  width: 50%;
+  padding: 60px;
+}
