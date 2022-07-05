@@ -158,3 +158,19 @@ header > .btn:hover {
   width: 50%;
   padding: 60px;
 }
+
+.fixed {
+  width: 60%;
+  border-radius: 20px;
+  box-shadow: 0px 2px 10px hsl(208deg 11% 55%);
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 1;
+  bottom: -87px;
+  position: relative;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  margin-top: 20px;
+}
