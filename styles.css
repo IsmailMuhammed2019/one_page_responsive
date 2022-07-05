@@ -25,6 +25,7 @@ body {
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
   font-weight: (400, 700);
+  line-height: 25px;
 }
 
 h1,
@@ -32,14 +33,22 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+button {
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
+  line-height: 43px;
 }
 
 img {
   width: 100%;
   height: auto;
+}
+
+.wrapper {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .jumbo {
   width: 100%;
@@ -50,11 +59,11 @@ img {
 
 header {
   display: flex;
-  padding: 20px;
+  padding: 30px 0px;
 }
 
 .logo > img {
-  width: 180px;
+  width: 160px;
 }
 
 .intro {
@@ -63,8 +72,27 @@ header {
 
 .textintro {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .jumboimg {
   width: 50%;
+}
+
+header > .btn {
+  margin-left: auto;
+  padding: 0px;
+  width: 150px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 3px 7px hsl(208deg 11% 55%);
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+}
+
+header > .btn:hover {
+  cursor: pointer;
 }
