@@ -52,7 +52,7 @@ img {
 .jumbo {
   width: 100%;
   height: 100%;
-  background-color: var(--Very_Pale_Cyan);
+  background-color: hsl(193, 100%, 96%);
   background-image: url(./imgs/bg-hero-desktop.svg);
 }
 
@@ -110,7 +110,7 @@ header > .btn:hover {
 
 .introbtn {
   width: 250px;
-  margin-top: 40px;
+  margin-top: 35px;
   line-height: 35px;
   border-radius: 20px;
   border: none;
@@ -121,4 +121,8 @@ header > .btn:hover {
 .introbtn:hover {
   cursor: pointer;
   box-shadow: 0px 3px 7px hsl(208deg 11% 55%);
+}
+
+.jumboimg {
+  padding: 15px;
 }
