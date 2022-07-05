@@ -239,6 +239,7 @@ footer {
 
   .intro {
     display: flex;
+    flex-direction: column;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -282,17 +283,31 @@ footer {
     flex-direction: column-reverse;
   }
   .grow {
+    width: 100%;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 60px;
+    padding: 30px 17px;
+  }
+
+  .grow > h2 {
+    text-align: center;
+    font-size: 23px;
   }
 
   .grow > p {
-    margin-top: 30px;
+    margin-top: 12px;
+    text-align: center;
+    font-size: 14px;
   }
 
   .secimage {
-    width: 50%;
-    padding: 60px;
+    width: 100%;
+    padding: 30px;
+  }
+
+  #single {
+    display: flex;
+    flex-direction: column;
   }
 }
