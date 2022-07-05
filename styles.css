@@ -211,3 +211,59 @@ footer {
 .footerlogo {
   margin-top: 132px;
 }
+
+@media screen and (max-width: 375px) {
+  .logo > img {
+    width: 120px;
+  }
+
+  .jumbo {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(193, 100%, 96%);
+    background-image: url(./imgs/bg-hero-mobile.svg);
+  }
+
+  header > .btn {
+    margin-left: auto;
+    padding: 0px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 3px 7px hsl(208deg 11% 55%);
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    line-height: 33px;
+  }
+
+  .intro {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+  }
+
+  .textintro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .grow {
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+  }
+
+  .grow > p {
+    margin-top: 30px;
+  }
+
+  .secimage {
+    width: 50%;
+    padding: 60px;
+  }
+}
